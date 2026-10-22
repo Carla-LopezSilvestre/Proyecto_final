@@ -1,9 +1,9 @@
-# Análisis de ventas de una cadena de jugueterías (Maven Toys)
+# Análisis de ventas de una cadena de jugueterías (Maven Toys)📝
 
 Proyecto final de máster: limpieza, transformación, análisis descriptivo, análisis estadístico y dashboard operativo en Power BI sobre más de 800.000 ventas de una cadena de jugueterías de México.
 
-**Autoría: Carla López Silvestre 
-**Repositorio:** [URL de tu repositorio]  
+**Autoría:** Carla López Silvestre 
+**Repositorio:** (https://github.com/Carla-LopezSilvestre/Proyecto_final.git)  
 **Herramientas:** Python (pandas, scipy), Visual Studio Code, Power BI Desktop
 
 ---
@@ -128,7 +128,7 @@ maven-toys-analysis/
 
 `requirements.txt`: pandas, numpy, openpyxl, matplotlib, seaborn, scipy, statsmodels, ipykernel.
 
-## 6. Proceso seguido paso a paso
+## 6. Proceso seguido paso a paso🧾
 
 ### 6.1. Exploración inicial (`01_exploracion.ipynb`)
 
@@ -350,7 +350,7 @@ El **p-valor** es la probabilidad de observar una diferencia (o relación) al me
 
 **Nota:** que tres de los cuatro contrastes no resulten significativos no es un fallo del análisis. Es un resultado, y aporta credibilidad..
 
-## 10. Dashboard en Power BI
+## 10. Dashboard en Power BI📊
 
 Archivo: [`dashboard/Dashboard_Maven_Toys.pbix`](dashboard/Dashboard_Maven_Toys.pbix). Se alimenta del `dataset_final.csv` y tiene tres páginas, con un filtro por año sincronizado en todas ellas.
 
@@ -402,7 +402,7 @@ DiaSemana = WEEKDAY(dataset_final[Date], 2)
 
 El CSV usa el punto como separador decimal (por ejemplo `12.99`). Con Windows configurado en español, Power BI interpreta el punto como separador de miles y puede cargar `12.99` como `1299`, multiplicando por 100 todos los importes sin mostrar ningún error. La solución es, en Power Query, seleccionar las columnas decimales (`Product_Cost`, `Product_Price`, `Total_Revenue`, `Total_Cost`, `Profit`, `Margin_Pct` y `Store_Age_Years`) y cambiar su tipo con **Usar configuración regional**, eligiendo **Número decimal** e **Inglés (Estados Unidos)**. Tras el cambio, las cifras del dashboard coinciden con las calculadas en Python (14,44 millones de ingresos y 4,01 millones de beneficio).
 
-## 11. Conclusiones
+## 11. Conclusiones📄
 
 1. **La cadena tiene un margen global del 27,8 %**, con 14,4 millones de dólares de ingresos y 4,0 millones de beneficio en 21 meses.
 2. **Hay dos motores de beneficio distintos.** Toys gana por volumen (35 % de los ingresos, margen del 21 %) y Electronics por margen (44,6 % con solo tres productos).
