@@ -3,7 +3,9 @@
 Proyecto final de máster: limpieza, transformación, análisis descriptivo, análisis estadístico y dashboard operativo en Power BI sobre más de 800.000 ventas de una cadena de jugueterías de México.
 
 **Autoría:** Carla López Silvestre 
+
 **Repositorio:** (https://github.com/Carla-LopezSilvestre/Proyecto_final.git)  
+
 **Herramientas:** Python (pandas, scipy), Visual Studio Code, Power BI Desktop
 
 ---
